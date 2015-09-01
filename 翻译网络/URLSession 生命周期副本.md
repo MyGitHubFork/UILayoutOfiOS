@@ -1,0 +1,41 @@
+# 网络编程主题
+
+##简介
+<br />
+    重要：这是一个为后面内容的准备性的文档。准确的说它会讨论一些技术，但不是最终的。苹果官方提供这个文档的目的是为了让你熟悉这个模块的接口。这里提供的信息可能会改变，这个文档里提到的接口信息会在最终的文档里面确定。想要了解这个文档的更新过程，点击这里[Apple Developer website](http://developer.apple.com/)。进入相关话题的reference library,并且打开它了解。
+<br />
+这个文档专门讲关于网络模块的相关知识。至于在这个文档里面提到的一些其他话题，我们假设你已经熟悉一些基本的网络概念。
+<br />
+    重要：大部分开发人员不需要读这个文档，并且大部分网络应用不会需要这个文档里面的知识(估计意思是大部分app用http)。在你读这个文档之前，你需要提前读[Networking Overview](https://developer.apple.com/library/ios/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/Introduction/Introduction.html#//apple_ref/doc/uid/TP40010220)以便你更能理解这个文档里面的内容。
+<br />
+### 如何使用这个文档
+<br />
+这个文档包含如下几节：<br />
+>.使用套接字(Socket)和套接字stream-描述了如何使用套接字和stream来做底层网络编程，从POSIX标准层到Foundation框架层。这个部分解释了现有的最好解决方法来写客户端和服务端。
+<br />
+>.域名系统(DNS)解析主机-解释了域名解析系统如何工作，以及如何避开域名解析系统的陷阱。
+<br />
+>.传输层安全(TLS)的正确实现-秒数了如何安全的操作传输层从而避免让你的软件有严重的安全问题。这个部分包括TCP steam(使用CFStream或者NSStream API)和URL请求(使用NSURLConnection API)。
+<br />
+每个部分都是针对要用到相应知识来编码的开发者。
+<br />
+###先决条件<br />
+这个文档假设你已经度过下面的文档或者理解文档里面的相应的知识：
+<br />
+>.[Networking Overview](https://developer.apple.com/library/ios/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/Introduction/Introduction.html#//apple_ref/doc/uid/TP40010220)-讲一个互联网软件工作的基本流程，如何避免一些常见的错误。
+<br />
+>.[Networking Concepts](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/NetworkingConcepts/Introduction/Introduction.html#//apple_ref/doc/uid/TP40012487)-描述了以套接字为基础的网络操作和基本概念。
+<br />
+<br />
+
+
+
+
+
+
+
+
+国内ios界最大的行动已经开始了。全面开始翻译ios开发者文档。
+欢迎加入，小伙伴们。有兴趣的，想要参加的赶紧来吧。
+https://github.com/wang820203420/IOS-Developer-library-Chinese/tree/master
+
