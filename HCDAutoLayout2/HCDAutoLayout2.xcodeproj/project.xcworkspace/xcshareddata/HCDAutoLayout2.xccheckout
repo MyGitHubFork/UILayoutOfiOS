@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>09361D0B-CBAF-49E4-AA94-F24A615549A9</string>
+	<string>2BBB1FBA-BFCD-43EA-BC56-ACDF1FA7E430</string>
 	<key>IDESourceControlProjectName</key>
-	<string>HCDAutoLayout</string>
+	<string>HCDAutoLayout2</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>412DCBEA1C936EFAFD07E15A2DC1455160BF6A94</key>
 		<string>https://github.com/huang303513/Masonry-UITableView-FDTemplateLayoutCell.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AutoLayout/HCDAutoLayout/HCDAutoLayout.xcodeproj</string>
+	<string>HCDAutoLayout2/HCDAutoLayout2.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>412DCBEA1C936EFAFD07E15A2DC1455160BF6A94</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/huang303513/Masonry-UITableView-FDTemplateLayoutCell.git</string>
