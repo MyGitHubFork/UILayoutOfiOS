@@ -1,6 +1,6 @@
 #各种自动布局、cell高度计算的解决方案、可以下载综合权衡。
 
-用Masonry和FDTemplateLayoutCell实现uitableviewcell自动布局。手写代码布局的福音。
+用Masonry和FDTemplateLayoutCell实现uitableviewcell自动布局。。
 
 [Masonry各种用法](https://github.com/ming1016/study/wiki/Masonry)
 
