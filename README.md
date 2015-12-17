@@ -8,4 +8,7 @@
 
 [AutoLayout框架Masonry使用心得](http://www.starming.com/index.php?v=index&view=81)
 
+[有趣的Autolayout示例3-Masonry实现](http://tutuge.me/2015/12/14/autolayout-example-with-masonry3/)
+
+[有趣的Autolayout示例-Masonry实现](http://tutuge.me/2015/05/23/autolayout-example-with-masonry/)
 
