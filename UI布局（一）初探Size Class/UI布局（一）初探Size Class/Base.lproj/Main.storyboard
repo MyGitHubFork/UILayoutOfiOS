@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sUm-X0-26A">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.3205092041949591" blue="0.34478117995942692" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yrw-ne-eDF">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.71911814079141001" green="1" blue="0.30919857793229266" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yrw-ne-eDF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="I78-CI-94i"/>
+                            <constraint firstAttribute="trailing" secondItem="sUm-X0-26A" secondAttribute="trailing" constant="50" id="KAz-1G-zAW"/>
+                            <constraint firstAttribute="trailing" secondItem="yrw-ne-eDF" secondAttribute="trailing" constant="50" id="YGs-q3-h4j"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sUm-X0-26A" secondAttribute="bottom" constant="50" id="gKe-83-970"/>
+                            <constraint firstItem="sUm-X0-26A" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="hoM-QT-eux"/>
+                            <constraint firstItem="sUm-X0-26A" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="oIk-aY-cIZ"/>
+                            <constraint firstItem="yrw-ne-eDF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="qOV-qh-0wM"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yrw-ne-eDF" secondAttribute="bottom" constant="50" id="weG-CO-Jef"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="sUm-X0-26A"/>
+                                <exclude reference="yrw-ne-eDF"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="KAz-1G-zAW"/>
+                                <exclude reference="hoM-QT-eux"/>
+                                <exclude reference="oIk-aY-cIZ"/>
+                                <exclude reference="I78-CI-94i"/>
+                                <exclude reference="YGs-q3-h4j"/>
+                                <exclude reference="qOV-qh-0wM"/>
+                                <exclude reference="gKe-83-970"/>
+                                <exclude reference="weG-CO-Jef"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="yrw-ne-eDF"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="I78-CI-94i"/>
+                                <include reference="YGs-q3-h4j"/>
+                                <include reference="qOV-qh-0wM"/>
+                                <include reference="weG-CO-Jef"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="sUm-X0-26A"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="KAz-1G-zAW"/>
+                                <include reference="hoM-QT-eux"/>
+                                <include reference="oIk-aY-cIZ"/>
+                                <include reference="gKe-83-970"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="454.5" y="438"/>
+        </scene>
+    </scenes>
+</document>

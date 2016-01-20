@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D5BEB021C4F93D800B038C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BEB011C4F93D800B038C9 /* main.m */; };
+		4D5BEB051C4F93D800B038C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BEB041C4F93D800B038C9 /* AppDelegate.m */; };
+		4D5BEB081C4F93D800B038C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BEB071C4F93D800B038C9 /* ViewController.m */; };
+		4D5BEB0B1C4F93D800B038C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BEB091C4F93D800B038C9 /* Main.storyboard */; settings = {ASSET_TAGS = (1, ); }; };
+		4D5BEB0D1C4F93D800B038C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BEB0C1C4F93D800B038C9 /* Assets.xcassets */; };
+		4D5BEB101C4F93D800B038C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BEB0E1C4F93D800B038C9 /* LaunchScreen.storyboard */; };
+		4D5BEB1B1C4F93D800B038C9 /* UI_____storyboard_autolayout_size_classUI_____storyboard_autolayout_size_UI_____storyboard_autolayout_size_classTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BEB1A1C4F93D800B038C9 /* UI_____storyboard_autolayout_size_classUI_____storyboard_autolayout_size_UI_____storyboard_autolayout_size_classTests.m */; };
+		4D5BEB261C4F93D900B038C9 /* UI_____storyboard_autolayout_size_classUI_____storyboard_autolayout_size_UI_____storyboard_autolayout_size_classUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BEB251C4F93D900B038C9 /* UI_____storyboard_autolayout_size_classUI_____storyboard_autolayout_size_UI_____storyboard_autolayout_size_classUITests.m */; };
+		4D5BEB361C4FADCF00B038C9 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BEB351C4FADCF00B038C9 /* Storyboard.storyboard */; };
+		4D5BEB391C4FAEFF00B038C9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BEB381C4FAEFF00B038C9 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D5BEB171C4F93D800B038C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D5BEAF51C4F93D800B038C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D5BEAFC1C4F93D800B038C9;
+			remoteInfo = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class";
+		};
+		4D5BEB221C4F93D800B038C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D5BEAF51C4F93D800B038C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D5BEAFC1C4F93D800B038C9;
+			remoteInfo = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D5BEAFD1C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5BEB011C4F93D800B038C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D5BEB031C4F93D800B038C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D5BEB041C4F93D800B038C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D5BEB061C4F93D800B038C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D5BEB071C4F93D800B038C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D5BEB0A1C4F93D800B038C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D5BEB0C1C4F93D800B038C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D5BEB0F1C4F93D800B038C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D5BEB111C4F93D800B038C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5BEB161C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5BEB1A1C4F93D800B038C9 /* UI_____storyboard_autolayout_size_classUI_____storyboard_autolayout_size_UI_____storyboard_autolayout_size_classTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI_____storyboard_autolayout_size_classUI_____storyboard_autolayout_size_UI_____storyboard_autolayout_size_classTests.m"; sourceTree = "<group>"; };
+		4D5BEB1C1C4F93D800B038C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5BEB211C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5BEB251C4F93D900B038C9 /* UI_____storyboard_autolayout_size_classUI_____storyboard_autolayout_size_UI_____storyboard_autolayout_size_classUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI_____storyboard_autolayout_size_classUI_____storyboard_autolayout_size_UI_____storyboard_autolayout_size_classUITests.m"; sourceTree = "<group>"; };
+		4D5BEB271C4F93D900B038C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5BEB351C4FADCF00B038C9 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		4D5BEB371C4FAEFF00B038C9 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4D5BEB381C4FAEFF00B038C9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D5BEAFA1C4F93D800B038C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5BEB131C4F93D800B038C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5BEB1E1C4F93D800B038C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D5BEAF41C4F93D800B038C9 = {
+			isa = PBXGroup;
+			children = (
+				4D5BEAFF1C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class */,
+				4D5BEB191C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classTests */,
+				4D5BEB241C4F93D900B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classUITests */,
+				4D5BEAFE1C4F93D800B038C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D5BEAFE1C4F93D800B038C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D5BEAFD1C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class.app */,
+				4D5BEB161C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classTests.xctest */,
+				4D5BEB211C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D5BEAFF1C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class */ = {
+			isa = PBXGroup;
+			children = (
+				4D5BEB031C4F93D800B038C9 /* AppDelegate.h */,
+				4D5BEB041C4F93D800B038C9 /* AppDelegate.m */,
+				4D5BEB061C4F93D800B038C9 /* ViewController.h */,
+				4D5BEB071C4F93D800B038C9 /* ViewController.m */,
+				4D5BEB091C4F93D800B038C9 /* Main.storyboard */,
+				4D5BEB0C1C4F93D800B038C9 /* Assets.xcassets */,
+				4D5BEB0E1C4F93D800B038C9 /* LaunchScreen.storyboard */,
+				4D5BEB111C4F93D800B038C9 /* Info.plist */,
+				4D5BEB001C4F93D800B038C9 /* Supporting Files */,
+				4D5BEB351C4FADCF00B038C9 /* Storyboard.storyboard */,
+				4D5BEB371C4FAEFF00B038C9 /* SecondViewController.h */,
+				4D5BEB381C4FAEFF00B038C9 /* SecondViewController.m */,
+			);
+			path = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class";
+			sourceTree = "<group>";
+		};
+		4D5BEB001C4F93D800B038C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D5BEB011C4F93D800B038C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D5BEB191C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D5BEB1A1C4F93D800B038C9 /* UI_____storyboard_autolayout_size_classUI_____storyboard_autolayout_size_UI_____storyboard_autolayout_size_classTests.m */,
+				4D5BEB1C1C4F93D800B038C9 /* Info.plist */,
+			);
+			path = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classTests";
+			sourceTree = "<group>";
+		};
+		4D5BEB241C4F93D900B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D5BEB251C4F93D900B038C9 /* UI_____storyboard_autolayout_size_classUI_____storyboard_autolayout_size_UI_____storyboard_autolayout_size_classUITests.m */,
+				4D5BEB271C4F93D900B038C9 /* Info.plist */,
+			);
+			path = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D5BEAFC1C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5BEB2A1C4F93D900B038C9 /* Build configuration list for PBXNativeTarget "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class" */;
+			buildPhases = (
+				4D5BEAF91C4F93D800B038C9 /* Sources */,
+				4D5BEAFA1C4F93D800B038C9 /* Frameworks */,
+				4D5BEAFB1C4F93D800B038C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class";
+			productName = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class";
+			productReference = 4D5BEAFD1C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D5BEB151C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5BEB2D1C4F93D900B038C9 /* Build configuration list for PBXNativeTarget "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classTests" */;
+			buildPhases = (
+				4D5BEB121C4F93D800B038C9 /* Sources */,
+				4D5BEB131C4F93D800B038C9 /* Frameworks */,
+				4D5BEB141C4F93D800B038C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5BEB181C4F93D800B038C9 /* PBXTargetDependency */,
+			);
+			name = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classTests";
+			productName = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classTests";
+			productReference = 4D5BEB161C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D5BEB201C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5BEB301C4F93D900B038C9 /* Build configuration list for PBXNativeTarget "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classUITests" */;
+			buildPhases = (
+				4D5BEB1D1C4F93D800B038C9 /* Sources */,
+				4D5BEB1E1C4F93D800B038C9 /* Frameworks */,
+				4D5BEB1F1C4F93D800B038C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5BEB231C4F93D800B038C9 /* PBXTargetDependency */,
+			);
+			name = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classUITests";
+			productName = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classUITests";
+			productReference = 4D5BEB211C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D5BEAF51C4F93D800B038C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					1,
+				);
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = huangchengdu;
+				TargetAttributes = {
+					4D5BEAFC1C4F93D800B038C9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4D5BEB151C4F93D800B038C9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4D5BEAFC1C4F93D800B038C9;
+					};
+					4D5BEB201C4F93D800B038C9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4D5BEAFC1C4F93D800B038C9;
+					};
+				};
+			};
+			buildConfigurationList = 4D5BEAF81C4F93D800B038C9 /* Build configuration list for PBXProject "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D5BEAF41C4F93D800B038C9;
+			productRefGroup = 4D5BEAFE1C4F93D800B038C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D5BEAFC1C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class */,
+				4D5BEB151C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classTests */,
+				4D5BEB201C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D5BEAFB1C4F93D800B038C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5BEB101C4F93D800B038C9 /* LaunchScreen.storyboard in Resources */,
+				4D5BEB361C4FADCF00B038C9 /* Storyboard.storyboard in Resources */,
+				4D5BEB0D1C4F93D800B038C9 /* Assets.xcassets in Resources */,
+				4D5BEB0B1C4F93D800B038C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5BEB141C4F93D800B038C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5BEB1F1C4F93D800B038C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D5BEAF91C4F93D800B038C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5BEB391C4FAEFF00B038C9 /* SecondViewController.m in Sources */,
+				4D5BEB081C4F93D800B038C9 /* ViewController.m in Sources */,
+				4D5BEB051C4F93D800B038C9 /* AppDelegate.m in Sources */,
+				4D5BEB021C4F93D800B038C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5BEB121C4F93D800B038C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5BEB1B1C4F93D800B038C9 /* UI_____storyboard_autolayout_size_classUI_____storyboard_autolayout_size_UI_____storyboard_autolayout_size_classTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5BEB1D1C4F93D800B038C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5BEB261C4F93D900B038C9 /* UI_____storyboard_autolayout_size_classUI_____storyboard_autolayout_size_UI_____storyboard_autolayout_size_classUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D5BEB181C4F93D800B038C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D5BEAFC1C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class */;
+			targetProxy = 4D5BEB171C4F93D800B038C9 /* PBXContainerItemProxy */;
+		};
+		4D5BEB231C4F93D800B038C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D5BEAFC1C4F93D800B038C9 /* UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class */;
+			targetProxy = 4D5BEB221C4F93D800B038C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D5BEB091C4F93D800B038C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D5BEB0A1C4F93D800B038C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D5BEB0E1C4F93D800B038C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D5BEB0F1C4F93D800B038C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D5BEB281C4F93D900B038C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D5BEB291C4F93D900B038C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D5BEB2B1C4F93D900B038C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.UI-----storyboard-autolayout-size-classUI-----storyboard-autolayout-size-UI-----storyboard-autolayout-size-class";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D5BEB2C1C4F93D900B038C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.UI-----storyboard-autolayout-size-classUI-----storyboard-autolayout-size-UI-----storyboard-autolayout-size-class";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D5BEB2E1C4F93D900B038C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.UI-----storyboard-autolayout-size-classUI-----storyboard-autolayout-size-UI-----storyboard-autolayout-size-classTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class.app/UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class";
+			};
+			name = Debug;
+		};
+		4D5BEB2F1C4F93D900B038C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.UI-----storyboard-autolayout-size-classUI-----storyboard-autolayout-size-UI-----storyboard-autolayout-size-classTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class.app/UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class";
+			};
+			name = Release;
+		};
+		4D5BEB311C4F93D900B038C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.UI-----storyboard-autolayout-size-classUI-----storyboard-autolayout-size-UI-----storyboard-autolayout-size-classUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4D5BEB321C4F93D900B038C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.UI-----storyboard-autolayout-size-classUI-----storyboard-autolayout-size-UI-----storyboard-autolayout-size-classUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D5BEAF81C4F93D800B038C9 /* Build configuration list for PBXProject "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5BEB281C4F93D900B038C9 /* Debug */,
+				4D5BEB291C4F93D900B038C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5BEB2A1C4F93D900B038C9 /* Build configuration list for PBXNativeTarget "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size class" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5BEB2B1C4F93D900B038C9 /* Debug */,
+				4D5BEB2C1C4F93D900B038C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D5BEB2D1C4F93D900B038C9 /* Build configuration list for PBXNativeTarget "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5BEB2E1C4F93D900B038C9 /* Debug */,
+				4D5BEB2F1C4F93D900B038C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D5BEB301C4F93D900B038C9 /* Build configuration list for PBXNativeTarget "UI布局（二）storyboard中autolayout和size classUI布局（二）storyboard中autolayout和size UI布局(二)storyboard中autolayout和size classUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5BEB311C4F93D900B038C9 /* Debug */,
+				4D5BEB321C4F93D900B038C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D5BEAF51C4F93D800B038C9 /* Project object */;
+}

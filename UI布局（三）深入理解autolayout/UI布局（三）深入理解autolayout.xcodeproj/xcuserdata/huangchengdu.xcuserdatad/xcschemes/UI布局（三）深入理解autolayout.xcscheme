@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0720"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4D5BEB421C4FB08D00B038C9"
+               BuildableName = "UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayout.app"
+               BlueprintName = "UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayout"
+               ReferencedContainer = "container:UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayout.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4D5BEB5B1C4FB08D00B038C9"
+               BuildableName = "UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayoutTests.xctest"
+               BlueprintName = "UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayoutTests"
+               ReferencedContainer = "container:UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayout.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4D5BEB661C4FB08D00B038C9"
+               BuildableName = "UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayoutUITests.xctest"
+               BlueprintName = "UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayoutUITests"
+               ReferencedContainer = "container:UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayout.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4D5BEB421C4FB08D00B038C9"
+            BuildableName = "UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayout.app"
+            BlueprintName = "UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayout"
+            ReferencedContainer = "container:UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayout.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4D5BEB421C4FB08D00B038C9"
+            BuildableName = "UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayout.app"
+            BlueprintName = "UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayout"
+            ReferencedContainer = "container:UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayout.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4D5BEB421C4FB08D00B038C9"
+            BuildableName = "UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayout.app"
+            BlueprintName = "UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayout"
+            ReferencedContainer = "container:UI&#x5e03;&#x5c40;&#xff08;&#x4e09;&#xff09;&#x6df1;&#x5165;&#x7406;&#x89e3;autolayout.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

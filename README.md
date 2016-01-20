@@ -15,25 +15,20 @@
 [有趣的Autolayout示例-Masonry实现](http://tutuge.me/2015/05/23/autolayout-example-with-masonry/)
 
 
-###其他地方引入
+xib和SB的自动布局：
 
-[总入口](http://www.henishuo.com/category/autolayout/)
+[叶孤城SizeClass和AutoLayout教程1](http://www.jianshu.com/p/bd071f9a558d)
 
-[Masonry基本用法一](http://www.henishuo.com/masonry-base-use/)
+[叶孤城SizeClass和AutoLayout教程2](http://www.jianshu.com/p/a4cf3db81c0b)
 
-[Masonry动画更新二](http://www.henishuo.com/masonry-animated-update/)
+[叶孤城SizeClass和AutoLayout教程3](http://www.jianshu.com/p/3d6b2341fd83)
 
-[Masonry之remake三](http://www.henishuo.com/masonry-remake-constraints/)
+[叶孤城SizeClass和AutoLayout教程4](http://www.jianshu.com/p/e72e957497b3)
 
-[Masonry之整体动画更新四](http://www.henishuo.com/masonry-total-constraints-update/)
+[UI布局（一）初探Size Class ](http://blog.csdn.net/liangliang103377/article/details/40082231)
 
-[Masonry之比例五](http://www.henishuo.com/masonry-multipliedby/)
+[UI布局（二）storyboard中autolayout和size class的使用详解](http://blog.csdn.net/liangliang103377/article/details/40082255)
 
-[Masonry之cell布局六](http://www.henishuo.com/masonry-tableviewcell-layout/)
+[UI布局（三）深入理解autolayout](http://blog.csdn.net/liangliang103377/article/details/40082271)
 
-[Masonry之scrollview循环布局七](http://www.henishuo.com/masonry-scrollview-loop-layout/)
-
-[Masonry之复杂scrollview布局八](http://www.henishuo.com/masonry-complex-scrollview-layout/)
-
-[Masonry之Scrollview实战九](http://www.henishuo.com/masonry-scrollview-use-scene/)
 
