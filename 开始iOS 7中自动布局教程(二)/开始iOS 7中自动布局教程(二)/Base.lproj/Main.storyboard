@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egc-wV-qef">
+                                <rect key="frame" x="157" y="550" width="285" height="30"/>
+                                <state key="normal" title="地方住对方V型正常V仔兽的V字市场水电费"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azX-rA-TjB">
+                                <rect key="frame" x="157" y="480" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="bGh-OT-hxg"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4lL-y2-fVq">
+                                <rect key="frame" x="0.0" y="40" width="600" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="4lL-y2-fVq" secondAttribute="height" multiplier="2:1" id="uy3-zJ-cW1"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4lL-y2-fVq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5Cr-NA-RhU"/>
+                            <constraint firstItem="azX-rA-TjB" firstAttribute="width" relation="lessThanOrEqual" secondItem="egc-wV-qef" secondAttribute="width" id="Q6x-Zd-CpY"/>
+                            <constraint firstItem="egc-wV-qef" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" identifier="0fsdf" id="X7b-wL-kzQ"/>
+                            <constraint firstItem="egc-wV-qef" firstAttribute="top" secondItem="azX-rA-TjB" secondAttribute="bottom" constant="40" id="Z3V-9i-7Sd"/>
+                            <constraint firstItem="4lL-y2-fVq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="faZ-5m-SVj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="egc-wV-qef" secondAttribute="bottom" constant="20" id="k6d-7F-ZlX"/>
+                            <constraint firstAttribute="trailing" secondItem="4lL-y2-fVq" secondAttribute="trailing" id="mOb-U0-ahv"/>
+                            <constraint firstItem="egc-wV-qef" firstAttribute="leading" secondItem="azX-rA-TjB" secondAttribute="leading" id="wH7-ea-YAV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="454" y="424"/>
+        </scene>
+    </scenes>
+</document>

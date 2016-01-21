@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D5BEB871C50E43900B038C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BEB861C50E43900B038C9 /* main.m */; };
+		4D5BEB8A1C50E43900B038C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BEB891C50E43900B038C9 /* AppDelegate.m */; };
+		4D5BEB8D1C50E43900B038C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BEB8C1C50E43900B038C9 /* ViewController.m */; };
+		4D5BEB901C50E43900B038C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BEB8E1C50E43900B038C9 /* Main.storyboard */; };
+		4D5BEB921C50E43900B038C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BEB911C50E43900B038C9 /* Assets.xcassets */; };
+		4D5BEB951C50E43900B038C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BEB931C50E43900B038C9 /* LaunchScreen.storyboard */; };
+		4D5BEBA01C50E43900B038C9 /* __iOS_7__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BEB9F1C50E43900B038C9 /* __iOS_7__________Tests.m */; };
+		4D5BEBAB1C50E43900B038C9 /* __iOS_7__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BEBAA1C50E43900B038C9 /* __iOS_7__________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D5BEB9C1C50E43900B038C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D5BEB7A1C50E43900B038C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D5BEB811C50E43900B038C9;
+			remoteInfo = "开始iOS 7中自动布局教程(一)";
+		};
+		4D5BEBA71C50E43900B038C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D5BEB7A1C50E43900B038C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D5BEB811C50E43900B038C9;
+			remoteInfo = "开始iOS 7中自动布局教程(一)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D5BEB821C50E43900B038C9 /* 开始iOS 7中自动布局教程(一).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "开始iOS 7中自动布局教程(一).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5BEB861C50E43900B038C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D5BEB881C50E43900B038C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D5BEB891C50E43900B038C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D5BEB8B1C50E43900B038C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D5BEB8C1C50E43900B038C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D5BEB8F1C50E43900B038C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D5BEB911C50E43900B038C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D5BEB941C50E43900B038C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D5BEB961C50E43900B038C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5BEB9B1C50E43900B038C9 /* 开始iOS 7中自动布局教程(一)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "开始iOS 7中自动布局教程(一)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5BEB9F1C50E43900B038C9 /* __iOS_7__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__iOS_7__________Tests.m"; sourceTree = "<group>"; };
+		4D5BEBA11C50E43900B038C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5BEBA61C50E43900B038C9 /* 开始iOS 7中自动布局教程(一)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "开始iOS 7中自动布局教程(一)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5BEBAA1C50E43900B038C9 /* __iOS_7__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__iOS_7__________UITests.m"; sourceTree = "<group>"; };
+		4D5BEBAC1C50E43900B038C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D5BEB7F1C50E43900B038C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5BEB981C50E43900B038C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5BEBA31C50E43900B038C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D5BEB791C50E43900B038C9 = {
+			isa = PBXGroup;
+			children = (
+				4D5BEB841C50E43900B038C9 /* 开始iOS 7中自动布局教程(一) */,
+				4D5BEB9E1C50E43900B038C9 /* 开始iOS 7中自动布局教程(一)Tests */,
+				4D5BEBA91C50E43900B038C9 /* 开始iOS 7中自动布局教程(一)UITests */,
+				4D5BEB831C50E43900B038C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D5BEB831C50E43900B038C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D5BEB821C50E43900B038C9 /* 开始iOS 7中自动布局教程(一).app */,
+				4D5BEB9B1C50E43900B038C9 /* 开始iOS 7中自动布局教程(一)Tests.xctest */,
+				4D5BEBA61C50E43900B038C9 /* 开始iOS 7中自动布局教程(一)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D5BEB841C50E43900B038C9 /* 开始iOS 7中自动布局教程(一) */ = {
+			isa = PBXGroup;
+			children = (
+				4D5BEB881C50E43900B038C9 /* AppDelegate.h */,
+				4D5BEB891C50E43900B038C9 /* AppDelegate.m */,
+				4D5BEB8B1C50E43900B038C9 /* ViewController.h */,
+				4D5BEB8C1C50E43900B038C9 /* ViewController.m */,
+				4D5BEB8E1C50E43900B038C9 /* Main.storyboard */,
+				4D5BEB911C50E43900B038C9 /* Assets.xcassets */,
+				4D5BEB931C50E43900B038C9 /* LaunchScreen.storyboard */,
+				4D5BEB961C50E43900B038C9 /* Info.plist */,
+				4D5BEB851C50E43900B038C9 /* Supporting Files */,
+			);
+			path = "开始iOS 7中自动布局教程(一)";
+			sourceTree = "<group>";
+		};
+		4D5BEB851C50E43900B038C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D5BEB861C50E43900B038C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D5BEB9E1C50E43900B038C9 /* 开始iOS 7中自动布局教程(一)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D5BEB9F1C50E43900B038C9 /* __iOS_7__________Tests.m */,
+				4D5BEBA11C50E43900B038C9 /* Info.plist */,
+			);
+			path = "开始iOS 7中自动布局教程(一)Tests";
+			sourceTree = "<group>";
+		};
+		4D5BEBA91C50E43900B038C9 /* 开始iOS 7中自动布局教程(一)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D5BEBAA1C50E43900B038C9 /* __iOS_7__________UITests.m */,
+				4D5BEBAC1C50E43900B038C9 /* Info.plist */,
+			);
+			path = "开始iOS 7中自动布局教程(一)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D5BEB811C50E43900B038C9 /* 开始iOS 7中自动布局教程(一) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5BEBAF1C50E43900B038C9 /* Build configuration list for PBXNativeTarget "开始iOS 7中自动布局教程(一)" */;
+			buildPhases = (
+				4D5BEB7E1C50E43900B038C9 /* Sources */,
+				4D5BEB7F1C50E43900B038C9 /* Frameworks */,
+				4D5BEB801C50E43900B038C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "开始iOS 7中自动布局教程(一)";
+			productName = "开始iOS 7中自动布局教程(一)";
+			productReference = 4D5BEB821C50E43900B038C9 /* 开始iOS 7中自动布局教程(一).app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D5BEB9A1C50E43900B038C9 /* 开始iOS 7中自动布局教程(一)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5BEBB21C50E43900B038C9 /* Build configuration list for PBXNativeTarget "开始iOS 7中自动布局教程(一)Tests" */;
+			buildPhases = (
+				4D5BEB971C50E43900B038C9 /* Sources */,
+				4D5BEB981C50E43900B038C9 /* Frameworks */,
+				4D5BEB991C50E43900B038C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5BEB9D1C50E43900B038C9 /* PBXTargetDependency */,
+			);
+			name = "开始iOS 7中自动布局教程(一)Tests";
+			productName = "开始iOS 7中自动布局教程(一)Tests";
+			productReference = 4D5BEB9B1C50E43900B038C9 /* 开始iOS 7中自动布局教程(一)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D5BEBA51C50E43900B038C9 /* 开始iOS 7中自动布局教程(一)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5BEBB51C50E43900B038C9 /* Build configuration list for PBXNativeTarget "开始iOS 7中自动布局教程(一)UITests" */;
+			buildPhases = (
+				4D5BEBA21C50E43900B038C9 /* Sources */,
+				4D5BEBA31C50E43900B038C9 /* Frameworks */,
+				4D5BEBA41C50E43900B038C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5BEBA81C50E43900B038C9 /* PBXTargetDependency */,
+			);
+			name = "开始iOS 7中自动布局教程(一)UITests";
+			productName = "开始iOS 7中自动布局教程(一)UITests";
+			productReference = 4D5BEBA61C50E43900B038C9 /* 开始iOS 7中自动布局教程(一)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D5BEB7A1C50E43900B038C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = huangchengdu;
+				TargetAttributes = {
+					4D5BEB811C50E43900B038C9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4D5BEB9A1C50E43900B038C9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4D5BEB811C50E43900B038C9;
+					};
+					4D5BEBA51C50E43900B038C9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4D5BEB811C50E43900B038C9;
+					};
+				};
+			};
+			buildConfigurationList = 4D5BEB7D1C50E43900B038C9 /* Build configuration list for PBXProject "开始iOS 7中自动布局教程(一)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D5BEB791C50E43900B038C9;
+			productRefGroup = 4D5BEB831C50E43900B038C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D5BEB811C50E43900B038C9 /* 开始iOS 7中自动布局教程(一) */,
+				4D5BEB9A1C50E43900B038C9 /* 开始iOS 7中自动布局教程(一)Tests */,
+				4D5BEBA51C50E43900B038C9 /* 开始iOS 7中自动布局教程(一)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D5BEB801C50E43900B038C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5BEB951C50E43900B038C9 /* LaunchScreen.storyboard in Resources */,
+				4D5BEB921C50E43900B038C9 /* Assets.xcassets in Resources */,
+				4D5BEB901C50E43900B038C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5BEB991C50E43900B038C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5BEBA41C50E43900B038C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D5BEB7E1C50E43900B038C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5BEB8D1C50E43900B038C9 /* ViewController.m in Sources */,
+				4D5BEB8A1C50E43900B038C9 /* AppDelegate.m in Sources */,
+				4D5BEB871C50E43900B038C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5BEB971C50E43900B038C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5BEBA01C50E43900B038C9 /* __iOS_7__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5BEBA21C50E43900B038C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5BEBAB1C50E43900B038C9 /* __iOS_7__________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D5BEB9D1C50E43900B038C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D5BEB811C50E43900B038C9 /* 开始iOS 7中自动布局教程(一) */;
+			targetProxy = 4D5BEB9C1C50E43900B038C9 /* PBXContainerItemProxy */;
+		};
+		4D5BEBA81C50E43900B038C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D5BEB811C50E43900B038C9 /* 开始iOS 7中自动布局教程(一) */;
+			targetProxy = 4D5BEBA71C50E43900B038C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D5BEB8E1C50E43900B038C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D5BEB8F1C50E43900B038C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D5BEB931C50E43900B038C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D5BEB941C50E43900B038C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D5BEBAD1C50E43900B038C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D5BEBAE1C50E43900B038C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D5BEBB01C50E43900B038C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "开始iOS 7中自动布局教程(一)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.--iOS-7----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D5BEBB11C50E43900B038C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "开始iOS 7中自动布局教程(一)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.--iOS-7----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D5BEBB31C50E43900B038C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "开始iOS 7中自动布局教程(一)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.--iOS-7----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/开始iOS 7中自动布局教程(一).app/开始iOS 7中自动布局教程(一)";
+			};
+			name = Debug;
+		};
+		4D5BEBB41C50E43900B038C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "开始iOS 7中自动布局教程(一)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.--iOS-7----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/开始iOS 7中自动布局教程(一).app/开始iOS 7中自动布局教程(一)";
+			};
+			name = Release;
+		};
+		4D5BEBB61C50E43900B038C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "开始iOS 7中自动布局教程(一)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.--iOS-7----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "开始iOS 7中自动布局教程(一)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4D5BEBB71C50E43900B038C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "开始iOS 7中自动布局教程(一)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.--iOS-7----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "开始iOS 7中自动布局教程(一)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D5BEB7D1C50E43900B038C9 /* Build configuration list for PBXProject "开始iOS 7中自动布局教程(一)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5BEBAD1C50E43900B038C9 /* Debug */,
+				4D5BEBAE1C50E43900B038C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5BEBAF1C50E43900B038C9 /* Build configuration list for PBXNativeTarget "开始iOS 7中自动布局教程(一)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5BEBB01C50E43900B038C9 /* Debug */,
+				4D5BEBB11C50E43900B038C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D5BEBB21C50E43900B038C9 /* Build configuration list for PBXNativeTarget "开始iOS 7中自动布局教程(一)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5BEBB31C50E43900B038C9 /* Debug */,
+				4D5BEBB41C50E43900B038C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D5BEBB51C50E43900B038C9 /* Build configuration list for PBXNativeTarget "开始iOS 7中自动布局教程(一)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5BEBB61C50E43900B038C9 /* Debug */,
+				4D5BEBB71C50E43900B038C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D5BEB7A1C50E43900B038C9 /* Project object */;
+}

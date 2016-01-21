@@ -31,4 +31,6 @@ xib和SB的自动布局：
 
 [UI布局（三）深入理解autolayout](http://blog.csdn.net/liangliang103377/article/details/40082271)
 
+[开始iOS 7中自动布局教程一](http://www.cnblogs.com/zer0Black/p/3977134.html)
 
+[开始iOS 7中自动布局教程(二)](http://www.cnblogs.com/zer0Black/p/3977288.html)
