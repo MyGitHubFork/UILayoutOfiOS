@@ -1,6 +1,8 @@
 #各种自动布局、cell高度计算的解决方案、可以下载综合权衡。
 
-用Masonry和FDTemplateLayoutCell实现uitableviewcell自动布局。。
+
+[IOS页面自动布局 之 NSLayoutConstraint基础篇](http://www.cnblogs.com/xieyajie/p/4612697.html?utm_source=tuicool&utm_medium=referral)
+
 
 [Masonry各种用法](https://github.com/ming1016/study/wiki/Masonry)
 
