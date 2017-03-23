@@ -11,6 +11,9 @@
 		4D8748221E83746300B427DF /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8748211E83746300B427DF /* a.png */; };
 		4D8748251E837FED00B427DF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8748241E837FED00B427DF /* SecondViewController.m */; };
 		4D8748271E839E1300B427DF /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8748261E839E1300B427DF /* SecondViewController.xib */; };
+		4D87482A1E83F2A600B427DF /* NSLayoutConstraint+ViewHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8748291E83F2A600B427DF /* NSLayoutConstraint+ViewHierarchy.m */; };
+		4D87482D1E83F40000B427DF /* UIView+HierarchySupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D87482C1E83F40000B427DF /* UIView+HierarchySupport.m */; };
+		4D8748301E83FD2000B427DF /* NSLayoutConstraint+SelfInstall.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D87482F1E83FD2000B427DF /* NSLayoutConstraint+SelfInstall.m */; };
 		4DFE068B1E82D03C00E853AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE068A1E82D03C00E853AB /* main.m */; };
 		4DFE068E1E82D03C00E853AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE068D1E82D03C00E853AB /* AppDelegate.m */; };
 		4DFE06911E82D03C00E853AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE06901E82D03C00E853AB /* ViewController.m */; };
@@ -46,6 +49,12 @@
 		4D8748231E837FED00B427DF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		4D8748241E837FED00B427DF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		4D8748261E839E1300B427DF /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		4D8748281E83F2A600B427DF /* NSLayoutConstraint+ViewHierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+ViewHierarchy.h"; sourceTree = "<group>"; };
+		4D8748291E83F2A600B427DF /* NSLayoutConstraint+ViewHierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+ViewHierarchy.m"; sourceTree = "<group>"; };
+		4D87482B1E83F40000B427DF /* UIView+HierarchySupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HierarchySupport.h"; sourceTree = "<group>"; };
+		4D87482C1E83F40000B427DF /* UIView+HierarchySupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HierarchySupport.m"; sourceTree = "<group>"; };
+		4D87482E1E83FD2000B427DF /* NSLayoutConstraint+SelfInstall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+SelfInstall.h"; sourceTree = "<group>"; };
+		4D87482F1E83FD2000B427DF /* NSLayoutConstraint+SelfInstall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+SelfInstall.m"; sourceTree = "<group>"; };
 		4DFE06861E82D03C00E853AB /* 约束相关.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "约束相关.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFE068A1E82D03C00E853AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4DFE068C1E82D03C00E853AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -131,6 +140,12 @@
 				4D8748231E837FED00B427DF /* SecondViewController.h */,
 				4D8748241E837FED00B427DF /* SecondViewController.m */,
 				4D8748261E839E1300B427DF /* SecondViewController.xib */,
+				4D8748281E83F2A600B427DF /* NSLayoutConstraint+ViewHierarchy.h */,
+				4D8748291E83F2A600B427DF /* NSLayoutConstraint+ViewHierarchy.m */,
+				4D87482B1E83F40000B427DF /* UIView+HierarchySupport.h */,
+				4D87482C1E83F40000B427DF /* UIView+HierarchySupport.m */,
+				4D87482E1E83FD2000B427DF /* NSLayoutConstraint+SelfInstall.h */,
+				4D87482F1E83FD2000B427DF /* NSLayoutConstraint+SelfInstall.m */,
 			);
 			path = "约束相关";
 			sourceTree = "<group>";
@@ -299,7 +314,10 @@
 			files = (
 				4D8748251E837FED00B427DF /* SecondViewController.m in Sources */,
 				4DFE06911E82D03C00E853AB /* ViewController.m in Sources */,
+				4D87482A1E83F2A600B427DF /* NSLayoutConstraint+ViewHierarchy.m in Sources */,
 				4DFE068E1E82D03C00E853AB /* AppDelegate.m in Sources */,
+				4D87482D1E83F40000B427DF /* UIView+HierarchySupport.m in Sources */,
+				4D8748301E83FD2000B427DF /* NSLayoutConstraint+SelfInstall.m in Sources */,
 				4DFE068B1E82D03C00E853AB /* main.m in Sources */,
 				4D8748201E836C0B00B427DF /* UIView+Layout.m in Sources */,
 				4DFE06BE1E82D08B00E853AB /* FirstViewController.m in Sources */,
