@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D8748201E836C0B00B427DF /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D87481F1E836C0B00B427DF /* UIView+Layout.m */; };
+		4D8748221E83746300B427DF /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8748211E83746300B427DF /* a.png */; };
+		4D8748251E837FED00B427DF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8748241E837FED00B427DF /* SecondViewController.m */; };
+		4D8748271E839E1300B427DF /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8748261E839E1300B427DF /* SecondViewController.xib */; };
 		4DFE068B1E82D03C00E853AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE068A1E82D03C00E853AB /* main.m */; };
 		4DFE068E1E82D03C00E853AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE068D1E82D03C00E853AB /* AppDelegate.m */; };
 		4DFE06911E82D03C00E853AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE06901E82D03C00E853AB /* ViewController.m */; };
@@ -36,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D87481E1E836C0B00B427DF /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		4D87481F1E836C0B00B427DF /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		4D8748211E83746300B427DF /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		4D8748231E837FED00B427DF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4D8748241E837FED00B427DF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4D8748261E839E1300B427DF /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		4DFE06861E82D03C00E853AB /* 约束相关.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "约束相关.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFE068A1E82D03C00E853AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4DFE068C1E82D03C00E853AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +114,7 @@
 		4DFE06881E82D03C00E853AB /* 约束相关 */ = {
 			isa = PBXGroup;
 			children = (
+				4D8748211E83746300B427DF /* a.png */,
 				4DFE068C1E82D03C00E853AB /* AppDelegate.h */,
 				4DFE068D1E82D03C00E853AB /* AppDelegate.m */,
 				4DFE068F1E82D03C00E853AB /* ViewController.h */,
@@ -115,6 +126,11 @@
 				4DFE06891E82D03C00E853AB /* Supporting Files */,
 				4DFE06BC1E82D08B00E853AB /* FirstViewController.h */,
 				4DFE06BD1E82D08B00E853AB /* FirstViewController.m */,
+				4D87481E1E836C0B00B427DF /* UIView+Layout.h */,
+				4D87481F1E836C0B00B427DF /* UIView+Layout.m */,
+				4D8748231E837FED00B427DF /* SecondViewController.h */,
+				4D8748241E837FED00B427DF /* SecondViewController.m */,
+				4D8748261E839E1300B427DF /* SecondViewController.xib */,
 			);
 			path = "约束相关";
 			sourceTree = "<group>";
@@ -212,6 +228,7 @@
 				TargetAttributes = {
 					4DFE06851E82D03C00E853AB = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F5L2MR9755;
 						ProvisioningStyle = Automatic;
 					};
 					4DFE069E1E82D03C00E853AB = {
@@ -254,6 +271,8 @@
 				4DFE06991E82D03C00E853AB /* LaunchScreen.storyboard in Resources */,
 				4DFE06961E82D03C00E853AB /* Assets.xcassets in Resources */,
 				4DFE06941E82D03C00E853AB /* Main.storyboard in Resources */,
+				4D8748221E83746300B427DF /* a.png in Resources */,
+				4D8748271E839E1300B427DF /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D8748251E837FED00B427DF /* SecondViewController.m in Sources */,
 				4DFE06911E82D03C00E853AB /* ViewController.m in Sources */,
 				4DFE068E1E82D03C00E853AB /* AppDelegate.m in Sources */,
 				4DFE068B1E82D03C00E853AB /* main.m in Sources */,
+				4D8748201E836C0B00B427DF /* UIView+Layout.m in Sources */,
 				4DFE06BE1E82D08B00E853AB /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +451,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5L2MR9755;
 				INFOPLIST_FILE = "约束相关/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "www.ctrip.cpm.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +464,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5L2MR9755;
 				INFOPLIST_FILE = "约束相关/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "www.ctrip.cpm.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +538,7 @@
 				4DFE06B51E82D03C00E853AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DFE06B61E82D03C00E853AB /* Build configuration list for PBXNativeTarget "约束相关Tests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +547,7 @@
 				4DFE06B81E82D03C00E853AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DFE06B91E82D03C00E853AB /* Build configuration list for PBXNativeTarget "约束相关UITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +556,7 @@
 				4DFE06BB1E82D03C00E853AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

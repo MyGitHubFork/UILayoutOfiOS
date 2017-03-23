@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "FirstViewController.h"
-
+#import "SecondViewController.h"
 @interface ViewController ()
 
 @end
@@ -26,6 +26,7 @@
 }
 
 - (IBAction)two:(id)sender {
+    [self.navigationController pushViewController:[[SecondViewController alloc]init] animated:YES];
 }
 
 - (IBAction)three:(id)sender {

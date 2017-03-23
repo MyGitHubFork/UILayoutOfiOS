@@ -7,7 +7,7 @@
 //
 
 #import "FirstViewController.h"
-
+#import "UIView+Layout.h"
 @interface FirstViewController ()
 
 @end
@@ -45,6 +45,26 @@
     [self.view addConstraints:@[heightConstrait,widthConstrait]];
     [self.view addConstraint:constraintTop];
     [self.view addConstraint:constraintBottom];
+    
+    
+    [self.view testAmbiguity];
+    
+    NSArray *arr = [self.view allConstraints];
+    NSLog(@"%@",arr);
+    //
+    UIImageView *imageview = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"a.png"]];
+    imageview.backgroundColor = [UIColor greenColor];
+//    [self.view addSubview:imageview];
+//    NSLayoutConstraint *iamgeHeightConstrait = [NSLayoutConstraint constraintWithItem:imageview attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:view1 attribute:NSLayoutAttributeHeight multiplier:1  constant:0];
+//    NSLayoutConstraint *imagewidthConstrait = [NSLayoutConstraint constraintWithItem:imageview attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual
+//                                                                         toItem:view1 attribute:NSLayoutAttributeWidth  multiplier:1 constant:0];
+//    [self.view addConstraints:@[iamgeHeightConstrait,imagewidthConstrait]];
+    
+    
+    [imageview setContentCompressionResistancePriority:300 forAxis:UILayoutConstraintAxisHorizontal];
+    NSLog(@"a.png需要内容空间大小%@",NSStringFromCGSize(imageview.intrinsicContentSize));
+    
+    
 }
 
 
