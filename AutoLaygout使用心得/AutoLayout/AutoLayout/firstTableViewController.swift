@@ -13,8 +13,8 @@ class firstTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var nib = UINib(nibName: "firstTableViewCell", bundle: nil)
-        self.tableView.registerNib(nib, forCellReuseIdentifier: "firstTableViewCell")
+        let nib = UINib(nibName: "firstTableViewCell", bundle: nil)
+        self.tableView.register(nib, forCellReuseIdentifier: "firstTableViewCell")
     }
     
     override func didReceiveMemoryWarning() {
@@ -23,16 +23,16 @@ class firstTableViewController: UITableViewController {
     
     // MARK: - Table view data source
     
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("firstTableViewCell", forIndexPath: indexPath) as! firstTableViewCell
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "firstTableViewCell", for: indexPath) as! firstTableViewCell
         
         cell.textLabel?.text = indexPath.row.description
         
